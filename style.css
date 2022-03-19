@@ -10,6 +10,7 @@ body{
     color: black;
     font-size: 15px;
     line-height: 1.5;
+    font-weight: 500;
 }
 
 a{
@@ -89,7 +90,7 @@ ul{
     justify-content: flex-end;
     padding-bottom: 50px;
     margin-bottom: 20px;
-    background: url(https://i.ibb.co/zGSDGCL/slide1.png) no-repeat center center/cover;
+    background: url('https://i.ibb.co/zGSDGCL/slide1.png') no-repeat center center/cover;
 }
 
 .showcase h2, .showcase p{
@@ -98,4 +99,84 @@ ul{
 
 .showcase .btn{
     margin-top: 20px;
+}
+
+/*Home Cards*/
+.home-cards{
+    display: grid;
+    margin-bottom: 40px ;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.home-cards img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.home-cards h3{
+    margin-bottom: 5px;
+}
+
+.home-cards a{
+    display: inline-block;
+    padding-top: 10px;
+    color: #0067b8;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.home-cards a:hover i {
+    margin-left: 10px;
+}
+
+/*xbox*/
+.xbox{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 350px;
+    background: url('https://i.ibb.co/tBJGPD9/xbox.png') no-repeat center center/cover;
+}
+
+.xbox .content{
+    width: 40%;
+    padding:50px 0 0 30px;
+}
+
+.xbox p, .carbon p{
+    margin: 10px 0 20px;
+}
+
+.carbon {
+    width: 100%;
+    height: 350px;
+    background: url('https://i.ibb.co/72cgtsz/carbon.jpg') no-repeat center center/cover;
+  }
+
+.carbon .content{
+    width: 55%;
+    padding: 100px 0 0 30px;
+}
+
+.dark{
+    color: #fff;
+
+}
+
+.dark .btn{
+    background: #f4f4f4;
+    color:#333;
+}
+
+/*Follow*/
+.follow{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 30px 0 30px;
+}
+
+.follow * {
+    margin-right: 10px;
 }
