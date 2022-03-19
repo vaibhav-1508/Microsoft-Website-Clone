@@ -58,7 +58,7 @@ ul{
     border-bottom: 2px solid #262626;
 }
 
-,.main-nav ul.main-menu{
+.main-nav ul.main-menu{
     flex: 1;
     margin-left: 20px;
 }
@@ -69,4 +69,33 @@ ul{
     border: 0;
     font-weight: bold;
     padding: 10px 20px;
+    background: #262626;
+    color: white;
+    font-size: 15px;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+/*Showcase*/
+.showcase{
+    width: 100%;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    background: url(https://i.ibb.co/zGSDGCL/slide1.png) no-repeat center center/cover;
+}
+
+.showcase h2, .showcase p{
+    margin-bottom: 10px;
+}
+
+.showcase .btn{
+    margin-top: 20px;
 }
