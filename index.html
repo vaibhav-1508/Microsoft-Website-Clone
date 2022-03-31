@@ -17,7 +17,7 @@
     <nav class="main-nav">
         <img src="https://i.ibb.co/wwLhz98/logo.png" alt="Microsoft" class="logo">
 
-        <ul class="main-menu">
+        <ul class="main-menu show">
             <li><a href="#">Office</a></li>
             <li><a href="#">Windows</a></li>
             <li><a href="#">Surface</a></li>
@@ -241,5 +241,8 @@
           </ul>
         </div>
       </footer>
+      <script>
+          document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('.main-menu').classList.toggle('show'));
+      </script>
 </body>
 </html>
